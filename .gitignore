@@ -1,0 +1,9 @@
+.preview.log
+.preview-error.log
+.preview.pid
+node_modules/
+.env
+.env.*
+!.env.example
+__pycache__/
+preview*.png

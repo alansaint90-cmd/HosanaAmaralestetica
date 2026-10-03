@@ -1,0 +1,35 @@
+{
+  "tool": "Built-in image_gen",
+  "images": [
+    {
+      "key": "corporal",
+      "path": "output/imagegen/corporal.png",
+      "prompt": "Crie uma imagem vertical 4:5, fotografia editorial premium para card de site de estética. Estética corporal: composição de frasco de óleo de massagem sem rótulo, toalhas de algodão enroladas, pedras lisas e uma tigela cerâmica em bancada de travertino. Sem pessoas, sem partes do corpo. Paleta areia, off-white quente, champagne, rosé discreto, luz difusa natural, objetos centrais com espaço de respiro. Sem texto, sem logotipo, sem marca-d'água."
+    },
+    {
+      "key": "pos-operatorio",
+      "path": "output/imagegen/pos-operatorio.png",
+      "prompt": "Use case: ads-marketing. Crie UMA imagem vertical 4:5 para card de tratamento de site premium de estética Hosana Amaral. Pré e pós-operatório: natureza-morta editorial de toalhas brancas limpas, uma faixa de compressão bege dobrada e um pequeno ramo seco sobre mesa de pedra clara, atmosfera acolhedora de recuperação e cuidado. Sem cirurgia, sem feridas, sem pessoas. Estilo fotografia editorial refinada e natural, paleta off-white quente, areia, champagne, rosé discreto, luz de janela difusa, composição central legível em cartão pequeno, sem texto, sem logotipo, sem marca-d'água, sem colagem. É imagem ilustrativa de IA, não fotografia da clínica real."
+    },
+    {
+      "key": "exbody",
+      "path": "output/imagegen/exbody.png",
+      "prompt": "Crie uma imagem vertical 4:5, fotografia editorial premium para card de site de estética. Exbody: imagem conceitual de bem-estar corporal e movimento, rolo de exercícios bege e faixa elástica rosé dobrada sobre um tapete de exercícios de linho em sala iluminada por luz de janela. Sem pessoas, sem partes do corpo, sem equipamento clínico. Paleta areia, off-white quente, champagne, rosé discreto, luz difusa natural, objetos centrais com espaço de respiro. Sem texto, sem logotipo, sem marca-d'água."
+    },
+    {
+      "key": "epilacao",
+      "path": "output/imagegen/epilacao.png",
+      "prompt": "Use case: ads-marketing. Crie UMA imagem vertical 4:5 para card de tratamento de site premium de estética Hosana Amaral. Epilação a cera e a laser: natureza-morta editorial de uma pequena tigela de cera âmbar e espátula de madeira sobre toalha branca e pedra bege, com fundo suave de sala de cuidados. Sem pessoas, sem equipamento com marca. Estilo fotografia editorial refinada e natural, paleta off-white quente, areia, champagne, rosé discreto, luz de janela difusa, composição central legível em cartão pequeno, sem texto, sem logotipo, sem marca-d'água, sem colagem. É imagem ilustrativa de IA, não fotografia da clínica real."
+    },
+    {
+      "key": "harmonizacao",
+      "path": "output/imagegen/harmonizacao.png",
+      "prompt": "Use case: ads-marketing. Crie UMA imagem vertical 4:5 para card de tratamento de site premium de estética Hosana Amaral. Harmonização facial: retrato editorial de perfil de uma mulher adulta fictícia, cabelo preso, pele natural com textura real, expressão serena, close-up elegante de rosto e pescoço com fundo bege quente. Sem agulhas, sem antes e depois, sem insinuar resultado de procedimento. Estilo fotografia editorial refinada e natural, paleta off-white quente, areia, champagne, rosé discreto, luz de janela difusa, composição central legível em cartão pequeno, sem texto, sem logotipo, sem marca-d'água, sem colagem. É imagem ilustrativa de IA, não fotografia da clínica real."
+    },
+    {
+      "key": "bioaterramento",
+      "path": "output/imagegen/bioaterramento.png",
+      "prompt": "Use case: ads-marketing. Crie UMA imagem vertical 4:5 para card de tratamento de site premium de estética Hosana Amaral. Bioaterramento: imagem conceitual de conexão com a natureza e relaxamento, pés de pessoa adulta descalça repousando suavemente sobre grama natural, enquadramento próximo, luz dourada difusa, bokeh verde sálvia e bege. Sem efeitos de energia, sem alegações terapêuticas. Estilo fotografia editorial refinada e natural, paleta off-white quente, areia, champagne, rosé discreto, luz de janela difusa, composição central legível em cartão pequeno, sem texto, sem logotipo, sem marca-d'água, sem colagem. É imagem ilustrativa de IA, não fotografia da clínica real."
+    }
+  ]
+}
