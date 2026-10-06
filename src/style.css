@@ -40,6 +40,10 @@
 @media(prefers-reduced-motion:reduce){.treatment-visual.preserve-image img,.treatment:hover .preserve-image img,.treatment:focus-within .preserve-image img{transform:none}}
 
 /* Only previous/next controls remain in the hero footer. */
+.studio-photo-frame{overflow:hidden}
+.studio-photo-frame img{transition:transform .75s var(--ease)}
+@media(hover:hover){.studio-photo-frame:hover img{transform:scale(1.045)}}
+@media(prefers-reduced-motion:reduce){.studio-photo-frame img{transition:none}.studio-photo-frame:hover img{transform:none}}
 .manifesto{gap:8%;grid-template-columns:1fr 1fr}
 .manifesto figure{grid-column:1;grid-row:1;max-width:none;justify-self:stretch}
 .manifesto-copy{grid-column:2;grid-row:1}
