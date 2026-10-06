@@ -3,11 +3,11 @@ export function initTreatmentCoverflow(stage){
  const section=stage.closest('section');
  let visible=cards,active=0,drag=null,suppressClick=false,step=220;
  stage.classList.add('coverflow');stage.tabIndex=0;
- stage.setAttribute('role','region');stage.setAttribute('aria-roledescription','carrossel');stage.setAttribute('aria-label','Tratamentos — use as setas para navegar');
+ stage.setAttribute('role','region');stage.setAttribute('aria-roledescription','carrossel');stage.setAttribute('aria-label','Tratamentos — role, arraste ou use as setas do teclado para navegar');
  const controls=document.createElement('div');controls.className='coverflow-controls';
- controls.innerHTML='<button type="button" class="icon-button" aria-label="Tratamento anterior">←</button><span class="coverflow-count" aria-live="polite" aria-atomic="true"></span><button type="button" class="icon-button" aria-label="Próximo tratamento">→</button>';
+ controls.innerHTML='<span class="coverflow-count" aria-live="polite" aria-atomic="true"></span>';
  stage.after(controls);
- const [prev,next]=controls.querySelectorAll('button'),status=controls.querySelector('span');
+ const status=controls.querySelector('span');
  const mobile=matchMedia('(max-width:600px)');
  function offset(i){let d=i-active;const n=visible.length;if(d>n/2)d-=n;if(d< -n/2)d+=n;return d;}
  function render(travel=0){
@@ -21,12 +21,22 @@ export function initTreatmentCoverflow(stage){
    card.setAttribute('role','group');card.setAttribute('aria-roledescription','slide');card.setAttribute('aria-label',`${i+1} de ${visible.length}: ${card.querySelector('h3').textContent}`);
    const image=card.querySelector('img');image.draggable=false;if(a<=2)image.loading='eager';else image.loading='lazy';
   });
-  status.textContent=visible.length?`${active+1} / ${visible.length}`:'0 / 0';prev.disabled=next.disabled=visible.length<2;
+  status.textContent=visible.length?`${active+1} / ${visible.length}`:'0 / 0';
  }
  function go(delta){if(!visible.length)return;active=(active+delta+visible.length)%visible.length;render();}
  function measure(){const width=stage.clientWidth;step=mobile.matches?Math.min(width*.59,245):Math.min(width*.205,255);render();}
  function refresh(){const previous=visible[active];visible=cards.filter(c=>!c.hidden);active=Math.max(0,visible.indexOf(previous));render();}
- prev.addEventListener('click',()=>go(-1));next.addEventListener('click',()=>go(1));
+ let wheelTotal=0,lastWheel=0;
+ stage.addEventListener('wheel',e=>{
+  if(e.ctrlKey||visible.length<2)return;
+  const delta=Math.abs(e.deltaX)>Math.abs(e.deltaY)?e.deltaX:e.deltaY;
+  if(!delta)return;
+  e.preventDefault();
+  const now=performance.now();
+  if(now-lastWheel<600)return;
+  wheelTotal+=delta*(e.deltaMode===1?16:e.deltaMode===2?stage.clientWidth:1);
+  if(Math.abs(wheelTotal)>=45){go(wheelTotal>0?1:-1);wheelTotal=0;lastWheel=now;}
+ },{passive:false});
  section.addEventListener('keydown',e=>{if(e.target.closest('.filters'))return;if(e.key==='ArrowLeft'||e.key==='ArrowRight'){e.preventDefault();go(e.key==='ArrowRight'?1:-1);}});
  stage.addEventListener('click',e=>{if(suppressClick){suppressClick=false;return;}const card=e.target.closest('.treatment'),i=visible.indexOf(card);if(i>=0){active=i;render();}});
  stage.addEventListener('pointerdown',e=>{if(e.button!==0||visible.length<2)return;drag={id:e.pointerId,x:e.clientX,y:e.clientY,dx:0,horizontal:false};suppressClick=false;});

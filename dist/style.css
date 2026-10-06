@@ -138,3 +138,8 @@
 #tratamentos .coverflow .treatment{width:clamp(230px,25vw,300px)}
 #tratamentos .coverflow .treatment h3{font-size:26px;margin-top:16px}
 @media(max-width:600px){#tratamentos{padding-block:48px}#tratamentos .section-top{margin-bottom:16px}#tratamentos .treatment-grid.coverflow{height:500px}#tratamentos .coverflow .treatment{width:72%;max-width:270px}#tratamentos .coverflow .treatment h3{font-size:24px}}
+
+/* Leave breathing room above the portrait, with softly blended edges. */
+.hero-portrait{background:#c3c4c8}
+.hero .hero-slide.hero-portrait:first-child .hero-image{inset:82px auto auto 3%;width:100%;height:calc(100% - 42px);object-position:50% top;mask-image:linear-gradient(to bottom,transparent,#000 32px);-webkit-mask-image:linear-gradient(to bottom,transparent,#000 32px)}
+@media(max-width:760px){.hero .hero-slide.hero-portrait:first-child .hero-image{inset:76px 0 auto;width:100%;height:calc(100% - 76px);object-position:60% top}}
