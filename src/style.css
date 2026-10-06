@@ -40,6 +40,12 @@
 @media(prefers-reduced-motion:reduce){.treatment-visual.preserve-image img,.treatment:hover .preserve-image img,.treatment:focus-within .preserve-image img{transform:none}}
 
 /* Only previous/next controls remain in the hero footer. */
+.hero-portrait{background:#34302b}
+.hero-portrait .hero-image{left:auto;right:0;width:72%;object-position:60% center}
+.hero-portrait .photo-shade{background:linear-gradient(90deg,#34302b 0%,rgba(52,48,43,.96) 26%,rgba(52,48,43,.35) 46%,transparent 64%)}
+.hero-portrait .hero-copy h1{max-width:43%;font-size:clamp(44px,4.5vw,70px)}
+.hero-portrait .hero-copy .intro{max-width:34%}
+@media(max-width:760px){.hero-portrait .hero-image{width:100%;height:52%;object-position:60% 30%}.hero-portrait .photo-shade{background:linear-gradient(0deg,#34302b 0%,#34302b 46%,transparent 65%)}.hero-portrait .hero-copy{padding-top:390px;padding-top:max(355px,48svh);padding-bottom:85px}.hero-portrait .hero-copy h1{max-width:100%;font-size:38px;margin-block:16px}.hero-portrait .hero-copy .intro{max-width:100%;font-size:13px;margin-bottom:18px}.hero-portrait .hero-copy .eyebrow{font-size:8px}}
 .treatment-grid.coverflow{display:block;position:relative;height:660px;perspective:1400px;isolation:isolate;overflow:hidden;touch-action:pan-y;cursor:grab;user-select:none;gap:0}
 .coverflow.is-dragging{cursor:grabbing}
 .coverflow .treatment{position:absolute;top:32px;left:50%;width:clamp(240px,28vw,350px);display:block;grid-row:auto;transform-origin:center center;backface-visibility:hidden;will-change:transform;transition:transform 600ms cubic-bezier(.22,1,.36,1),opacity 400ms ease}
