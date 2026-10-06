@@ -208,10 +208,10 @@
         "name": "Estética corporal",
         "description": "Converse sobre as opções de estética corporal oferecidas.",
         "image": {
-          "key": "corporal-real",
+          "key": "corporal-real-v2",
           "alt": "Fotografia fornecida de atendimento corporal",
           "generated": false,
-          "fit": "contain"
+          "fit": "cover"
         },
         "actions": [
           {
