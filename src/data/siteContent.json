@@ -405,7 +405,7 @@
         "name": "Brow lamination",
         "description": "Converse com a equipe sobre o cuidado e alinhamento das sobrancelhas.",
         "image": {
-          "key": "brow-lamination-real",
+          "key": "brow-lamination-v2",
           "alt": "Fotografia de rosto e sobrancelhas fornecida pela clínica",
           "generated": false,
           "fit": "cover"
