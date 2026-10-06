@@ -321,7 +321,7 @@
           "key": "plastica-pes-v2",
           "alt": "Comparação dos pés lado a lado na imagem fornecida para plástica dos pés",
           "generated": false,
-          "fit": "contain"
+          "fit": "cover"
         },
         "actions": [
           {
@@ -427,7 +427,7 @@
         "name": "Despigmentação de sobrancelhas",
         "description": "Saiba mais sobre a avaliação para despigmentação de sobrancelhas.",
         "image": {
-          "key": "despigmentacao-v2",
+          "key": "despigmentacao-v3",
           "alt": "Fotografia de sobrancelha fornecida para o atendimento de despigmentação",
           "generated": false,
           "fit": "cover"
