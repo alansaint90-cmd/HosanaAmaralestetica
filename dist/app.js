@@ -1,5 +1,4 @@
 import {initTreatmentCoverflow} from './treatment-coverflow.js';
-import {initHeroPressure} from './hero-pressure.js';
 const $=(s,scope=document)=>scope.querySelector(s);
 const $$=(s,scope=document)=>[...scope.querySelectorAll(s)];
 const header=$('.header');
@@ -11,7 +10,7 @@ $('.close-menu')?.addEventListener('click',()=>menu.close());
 $$('a',menu).forEach(a=>a.addEventListener('click',()=>menu.close()));
 const slides=$$('.hero-slide'),hero=$('.hero');
 const motion=matchMedia('(prefers-reduced-motion: reduce)');
-initHeroPressure(hero,slides,motion);
+
 let index=0;
 function show(next){index=(next+slides.length)%slides.length;slides.forEach((s,i)=>{s.classList.toggle('active',i===index);s.inert=i!==index;s.setAttribute('aria-hidden',String(i!==index));});$('#slide-status').textContent=`Slide ${index+1} de ${slides.length}: ${$('h1,h2',slides[index]).textContent}`;}
 $('.prev').addEventListener('click',()=>show(index-1));
