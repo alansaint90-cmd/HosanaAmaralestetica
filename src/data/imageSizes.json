@@ -26,5 +26,69 @@
   "atendimento-novo": {
     "width": 1280,
     "height": 1812
+  },
+  "pos-operatorio-real": {
+    "width": 1277,
+    "height": 1054
+  },
+  "alongamento-fita": {
+    "width": 1024,
+    "height": 1536
+  },
+  "plastica-pes": {
+    "width": 1210,
+    "height": 893
+  },
+  "plastica-pes-v2": {
+    "width": 1280,
+    "height": 944
+  },
+  "pos-operatorio-real-v2": {
+    "width": 1280,
+    "height": 944
+  },
+  "corporal-real": {
+    "width": 1280,
+    "height": 960
+  },
+  "massagem-modeladora-real": {
+    "width": 1280,
+    "height": 1707
+  },
+  "diastase-flacidez-real": {
+    "width": 1280,
+    "height": 833
+  },
+  "pos-lipo-real": {
+    "width": 422,
+    "height": 387
+  },
+  "hidratacao-labial-real": {
+    "width": 1280,
+    "height": 1707
+  },
+  "brow-lamination-real": {
+    "width": 1280,
+    "height": 1707
+  },
+  "despigmentacao-real": {
+    "width": 1280,
+    "height": 1082
+  },
+  "plastica-pes-real": {
+    "width": 1280,
+    "height": 1256
+  },
+  "epilacao-laser-nova": {
+    "width": 1122,
+    "height": 1402
+  },
+  "ezbody-novo": {
+    "width": 1122,
+    "height": 1402
+  },
+  "unhas-gel": {
+    "width": 1122,
+    "height": 1402
   }
 }

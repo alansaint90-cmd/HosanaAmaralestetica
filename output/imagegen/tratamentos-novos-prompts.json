@@ -1,0 +1,17 @@
+{
+  "tool": "image_gen built-in",
+  "images": [
+    {
+      "file": "epilacao-laser-nova.png",
+      "prompt": "Vertical 4:5 editorial photorealistic image for a Brazilian premium beauty clinic treatment card: laser hair removal on an adult woman's lower leg. Close crop of lower leg resting on clean ivory treatment bed and professional wearing disposable gloves holding a realistic laser hair removal handpiece against shin. Warm beige neutral clinic, soft natural light, realistic skin texture, tasteful professional care, no text, no logo, no before-after, no exaggerated results."
+    },
+    {
+      "file": "ezbody-novo.png",
+      "prompt": "Vertical 4:5 editorial photorealistic image for a beauty clinic body treatment card: adult woman fully dressed in a black electrical muscle stimulation training suit with visible fitted electrode panels and discreet cables, standing in a calm cream beige wellness studio, professional instructor nearby in neutral uniform. Waist-up to mid-thigh composition centered, warm natural light, realistic anatomy, no text, no logos, no claims, no before-after."
+    },
+    {
+      "file": "unhas-gel.png",
+      "prompt": "Vertical 4:5 editorial photorealistic close-up for premium Brazilian beauty salon: adult woman's hands resting elegantly on ivory towel with beautifully finished medium length almond-shaped gel nail extensions, translucent soft blush pink manicure, natural cuticles, anatomically accurate hands and fingers. Warm beige salon background softly blurred, natural daylight, editorial detailed photography, no text, no logo, no collage."
+    }
+  ]
+}

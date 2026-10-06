@@ -1,0 +1,11 @@
+*
+!package.json
+!Dockerfile
+!scripts/
+!scripts/**
+!src/
+!src/**
+!dist/
+dist/*
+!dist/assets/
+!dist/assets/**

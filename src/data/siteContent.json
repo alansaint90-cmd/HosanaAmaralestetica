@@ -208,9 +208,10 @@
         "name": "Estética corporal",
         "description": "Converse sobre as opções de estética corporal oferecidas.",
         "image": {
-          "key": "corporal",
-          "alt": "Imagem ilustrativa gerada por IA para Estética corporal",
-          "generated": true
+          "key": "corporal-real",
+          "alt": "Fotografia fornecida de atendimento corporal",
+          "generated": false,
+          "fit": "contain"
         },
         "actions": [
           {
@@ -226,12 +227,13 @@
       {
         "id": "03",
         "category": "CUIDADO",
-        "name": "Pré e pós-operatório",
-        "description": "Saiba mais sobre os atendimentos pré e pós-operatórios.",
+        "name": "Pós-operatório de lipoaspiração",
+        "description": "Converse com a equipe sobre os cuidados no pós-operatório de lipoaspiração.",
         "image": {
-          "key": "pos-operatorio",
-          "alt": "Imagem ilustrativa gerada por IA para Pré e pós-operatório",
-          "generated": true
+          "key": "pos-lipo-real",
+          "alt": "Fotografia de abdômen fornecida para os cuidados corporais",
+          "generated": false,
+          "fit": "contain"
         },
         "actions": [
           {
@@ -247,12 +249,13 @@
       {
         "id": "04",
         "category": "CORPORAL",
-        "name": "Exbody",
+        "name": "Ezbody",
         "description": "Entre em contato para entender este atendimento.",
         "image": {
-          "key": "exbody",
-          "alt": "Imagem ilustrativa gerada por IA para Exbody",
-          "generated": true
+          "key": "ezbody-novo",
+          "alt": "Imagem ilustrativa de atendimento com eletroestimulação, gerada por IA",
+          "generated": true,
+          "fit": "cover"
         },
         "actions": [
           {
@@ -268,12 +271,13 @@
       {
         "id": "05",
         "category": "EPILAÇÃO",
-        "name": "Epilação a cera e a laser",
-        "description": "Consulte as opções de epilação disponíveis.",
+        "name": "Epilação a laser",
+        "description": "Conheça o atendimento de epilação a laser e tire suas dúvidas com a equipe.",
         "image": {
-          "key": "epilacao",
-          "alt": "Imagem ilustrativa gerada por IA para Epilação a cera e a laser",
-          "generated": true
+          "key": "epilacao-laser-nova",
+          "alt": "Imagem ilustrativa de epilação a laser na perna, gerada por IA",
+          "generated": true,
+          "fit": "cover"
         },
         "actions": [
           {
@@ -292,9 +296,10 @@
         "name": "Harmonização facial",
         "description": "Conheça as opções de harmonização facial.",
         "image": {
-          "key": "harmonizacao",
-          "alt": "Imagem ilustrativa gerada por IA para Harmonização facial",
-          "generated": true
+          "key": "hidratacao-labial-real",
+          "alt": "Fotografia de rosto fornecida pela clínica",
+          "generated": false,
+          "fit": "cover"
         },
         "actions": [
           {
@@ -309,13 +314,14 @@
       },
       {
         "id": "07",
-        "category": "BEM-ESTAR",
-        "name": "Bioaterramento",
-        "description": "Fale com a equipe para saber mais sobre este atendimento.",
+        "category": "CABELOS",
+        "name": "Alongamento pelo método de fita",
+        "description": "Converse com a equipe sobre o alongamento pelo método de fita.",
         "image": {
-          "key": "bioaterramento",
-          "alt": "Imagem ilustrativa gerada por IA para Bioaterramento",
-          "generated": true
+          "key": "alongamento-fita",
+          "alt": "Fotografia fornecida para o alongamento capilar pelo método de fita",
+          "generated": false,
+          "fit": "cover"
         },
         "actions": [
           {
@@ -327,6 +333,160 @@
             "type": "whatsapp"
           }
         ]
+      },
+      {
+        "id": "08",
+        "category": "CUIDADO",
+        "name": "Plástica dos pés",
+        "description": "Saiba mais sobre o atendimento de plástica dos pés.",
+        "image": {
+          "key": "plastica-pes-real",
+          "alt": "Fotografia dos pés fornecida pela clínica",
+          "generated": false,
+          "fit": "contain"
+        },
+        "actions": [
+          {
+            "label": "Saiba mais",
+            "type": "whatsapp"
+          },
+          {
+            "label": "Agendar",
+            "type": "whatsapp"
+          }
+        ]
+      },
+      {
+        "category": "CORPORAL",
+        "name": "Tratamento de diástase e flacidez",
+        "description": "Saiba mais sobre a avaliação e as opções de cuidado para diástase e flacidez.",
+        "image": {
+          "key": "diastase-flacidez-real",
+          "alt": "Fotografia de abdômen fornecida pela clínica",
+          "generated": false,
+          "fit": "contain"
+        },
+        "actions": [
+          {
+            "label": "Saiba mais",
+            "type": "whatsapp"
+          },
+          {
+            "label": "Agendar",
+            "type": "whatsapp"
+          }
+        ],
+        "id": "09"
+      },
+      {
+        "category": "CORPORAL",
+        "name": "Massagem modeladora",
+        "description": "Conheça a massagem modeladora e converse sobre o atendimento.",
+        "image": {
+          "key": "massagem-modeladora-real",
+          "alt": "Fotografia de cuidado corporal fornecida pela clínica",
+          "generated": false,
+          "fit": "cover"
+        },
+        "actions": [
+          {
+            "label": "Saiba mais",
+            "type": "whatsapp"
+          },
+          {
+            "label": "Agendar",
+            "type": "whatsapp"
+          }
+        ],
+        "id": "10"
+      },
+      {
+        "category": "FACIAL",
+        "name": "Hidratação labial",
+        "description": "Conheça o cuidado de hidratação labial disponível no espaço.",
+        "image": {
+          "key": "hidratacao-labial-real",
+          "alt": "Fotografia de rosto e lábios fornecida pela clínica",
+          "generated": false,
+          "fit": "cover"
+        },
+        "actions": [
+          {
+            "label": "Saiba mais",
+            "type": "whatsapp"
+          },
+          {
+            "label": "Agendar",
+            "type": "whatsapp"
+          }
+        ],
+        "id": "11"
+      },
+      {
+        "category": "FACIAL",
+        "name": "Brow lamination",
+        "description": "Converse com a equipe sobre o cuidado e alinhamento das sobrancelhas.",
+        "image": {
+          "key": "brow-lamination-real",
+          "alt": "Fotografia de rosto e sobrancelhas fornecida pela clínica",
+          "generated": false,
+          "fit": "cover"
+        },
+        "actions": [
+          {
+            "label": "Saiba mais",
+            "type": "whatsapp"
+          },
+          {
+            "label": "Agendar",
+            "type": "whatsapp"
+          }
+        ],
+        "id": "12"
+      },
+      {
+        "category": "FACIAL",
+        "name": "Despigmentação de sobrancelhas",
+        "description": "Saiba mais sobre a avaliação para despigmentação de sobrancelhas.",
+        "image": {
+          "key": "despigmentacao-real",
+          "alt": "Fotografia de sobrancelha fornecida pela clínica",
+          "generated": false,
+          "fit": "contain"
+        },
+        "actions": [
+          {
+            "label": "Saiba mais",
+            "type": "whatsapp"
+          },
+          {
+            "label": "Agendar",
+            "type": "whatsapp"
+          }
+        ],
+        "id": "13"
+      },
+      {
+        "category": "UNHAS",
+        "name": "Alongamento de unhas em gel",
+        "description": "Conheça as opções de alongamento e acabamento de unhas em gel.",
+        "image": {
+          "key": "unhas-gel",
+          "alt": "Imagem ilustrativa de unhas em gel, gerada por IA",
+          "generated": true,
+          "fit": "cover"
+        },
+        "actions": [
+          {
+            "label": "Saiba mais",
+            "type": "whatsapp"
+          },
+          {
+            "label": "Agendar",
+            "type": "whatsapp"
+          }
+        ],
+        "id": "14"
       }
     ]
   },
@@ -390,7 +550,7 @@
       {
         "number": "02",
         "question": "Quais tratamentos estão disponíveis?",
-        "answer": "Oferecemos estética facial e corporal, pré e pós-operatório, Exbody, epilação a cera e a laser, harmonização facial e bioaterramento. Consulte a equipe para mais informações."
+        "answer": "Oferecemos Estética facial, Estética corporal, Pós-operatório de lipoaspiração, Ezbody, Epilação a laser, Harmonização facial, Alongamento pelo método de fita, Plástica dos pés, Tratamento de diástase e flacidez, Massagem modeladora, Hidratação labial, Brow lamination, Despigmentação de sobrancelhas, Alongamento de unhas em gel. Consulte a equipe para conhecer os detalhes de cada atendimento."
       },
       {
         "number": "03",
@@ -460,7 +620,7 @@
         "Termos de Uso"
       ]
     },
-    "back_to_top": "Voltar ao início ↑"
+    "back_to_top": "Voltar ao início"
   },
   "assets": {
     "images": [
