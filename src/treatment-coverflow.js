@@ -4,7 +4,7 @@ export function initTreatmentCoverflow(stage){
  let visible=cards,active=0,drag=null,suppressClick=false,step=220;
  stage.classList.add('coverflow');stage.tabIndex=0;
  stage.setAttribute('role','region');stage.setAttribute('aria-roledescription','carrossel');stage.setAttribute('aria-label','Tratamentos — arraste para os lados ou use as setas do teclado para navegar');
- const controls=document.createElement('div');controls.className='coverflow-controls';
+ const controls=document.createElement('div');controls.className='sr-only';
  controls.innerHTML='<span class="coverflow-count" aria-live="polite" aria-atomic="true"></span>';
  stage.after(controls);
  const status=controls.querySelector('span');
