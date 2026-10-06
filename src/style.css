@@ -128,3 +128,13 @@
 #tratamentos .section-top h2{max-width:960px;margin-inline:auto;font-size:clamp(34px,4.3vw,60px);text-wrap:balance}
 #tratamentos .section-top div>p:last-child{max-width:600px;margin-inline:auto}
 #tratamentos .section-top>.section-number{text-align:center}
+/* More compact services section while preserving Cover Flow depth. */
+#tratamentos{padding-block:72px}
+#tratamentos>.container{max-width:1080px}
+#tratamentos .section-top{gap:14px;margin-bottom:24px}
+#tratamentos .section-top h2{max-width:800px;font-size:clamp(30px,3.6vw,48px)}
+#tratamentos .section-top div>p:last-child{margin-top:18px}
+#tratamentos .treatment-grid.coverflow{height:530px}
+#tratamentos .coverflow .treatment{width:clamp(230px,25vw,300px)}
+#tratamentos .coverflow .treatment h3{font-size:26px;margin-top:16px}
+@media(max-width:600px){#tratamentos{padding-block:48px}#tratamentos .section-top{margin-bottom:16px}#tratamentos .treatment-grid.coverflow{height:500px}#tratamentos .coverflow .treatment{width:72%;max-width:270px}#tratamentos .coverflow .treatment h3{font-size:24px}}
