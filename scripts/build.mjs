@@ -11,5 +11,5 @@ for(const [route,page] of Object.entries(legal)){
   await writeFile(`dist/${route}/index.html`,`${head(page.title+' | Hosana Amaral')}<body><main class="legal container"><a class="text-link button" href="/">← Voltar ao início</a><p class="eyebrow">Hosana Amaral · Estética Avançada</p><h1>${page.title}</h1>${page.paragraphs.map(p=>`<p>${p}</p>`).join('')}<p>${page.contact} <a class="inline-link" href="${wa()}" target="_blank" rel="noopener noreferrer">WhatsApp</a>.</p></main></body></html>`);
 }
 for(const [alias,route] of [['politica-de-privacidade','privacidade'],['termos-de-uso','termos']]){await mkdir(`dist/${alias}`,{recursive:true});await copyFile(`dist/${route}/index.html`,`dist/${alias}/index.html`);}
-for(const f of ['style.css','app.js','hero-pressure.js','favicon.svg']) await copyFile('src/'+f,'dist/'+f);
+for(const f of ['style.css','app.js','hero-pressure.js','treatment-coverflow.js','favicon.svg']) await copyFile('src/'+f,'dist/'+f);
 console.log('Site gerado em dist/');

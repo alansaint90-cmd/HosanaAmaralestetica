@@ -40,6 +40,24 @@
 @media(prefers-reduced-motion:reduce){.treatment-visual.preserve-image img,.treatment:hover .preserve-image img,.treatment:focus-within .preserve-image img{transform:none}}
 
 /* Only previous/next controls remain in the hero footer. */
+.treatment-grid.coverflow{display:block;position:relative;height:660px;perspective:1400px;isolation:isolate;overflow:hidden;touch-action:pan-y;cursor:grab;user-select:none;gap:0}
+.coverflow.is-dragging{cursor:grabbing}
+.coverflow .treatment{position:absolute;top:32px;left:50%;width:clamp(240px,28vw,350px);display:block;grid-row:auto;transform-origin:center center;backface-visibility:hidden;will-change:transform;transition:transform 600ms cubic-bezier(.22,1,.36,1),opacity 400ms ease}
+.coverflow .treatment[hidden]{display:none}
+.coverflow .treatment-visual{border-radius:12px;aspect-ratio:4/4.6;background:var(--sand)}
+.coverflow .is-active .treatment-visual{box-shadow:0 16px 32px -14px #39352f55}
+.coverflow .treatment-visual img,.coverflow .treatment-visual.preserve-image img{object-fit:cover;transform:none;filter:none}
+.coverflow .category{margin-top:20px}
+.coverflow h3{font-size:29px;line-height:1.08}
+.coverflow .treatment-description{margin-top:12px}
+.coverflow-controls{display:flex;align-items:center;justify-content:center;gap:24px;margin-top:8px}
+.coverflow-controls .icon-button{color:var(--ink);border-color:var(--line)}
+.coverflow-controls .icon-button:hover{background:var(--sand)}
+.coverflow-controls .icon-button:disabled{opacity:.35;cursor:default}
+.coverflow-count{font-size:11px;letter-spacing:.12em;min-width:55px;text-align:center;color:var(--muted)}
+.coverflow:focus-visible{outline:2px solid var(--champagne);outline-offset:3px}
+@media(max-width:600px){.treatment-grid.coverflow{height:610px;perspective:1100px;margin-inline:-16px}.coverflow .treatment{width:72%;max-width:300px;top:26px}.coverflow h3{font-size:27px}.coverflow .treatment-description{font-size:12px}.coverflow .category{font-size:8px}.coverflow .treatment-visual{aspect-ratio:4/4.6}}
+@media(prefers-reduced-motion:reduce){.coverflow .treatment{transition:none}}
 .studio-photo-frame{overflow:hidden}
 .studio-photo-frame img{transition:transform .75s var(--ease)}
 @media(hover:hover){.studio-photo-frame:hover img{transform:scale(1.045)}}
@@ -65,3 +83,4 @@
  .treatment{display:flex;flex-direction:column}
  .treatment .treatment-description{padding-bottom:0}
 }
+.coverflow.is-dragging .treatment{transition:none}
