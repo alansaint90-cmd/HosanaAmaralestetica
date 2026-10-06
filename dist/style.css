@@ -191,3 +191,24 @@ footer{background:var(--paper);color:var(--ink)}
 .instagram-final .instagram-link{width:fit-content;max-width:100%;margin-top:30px;color:var(--paper);border-color:var(--champagne);font-size:15px;overflow-wrap:anywhere}
 .instagram-final .instagram-link:hover{color:var(--champagne);border-color:var(--paper)}
 .instagram-final .instagram-link svg{flex-shrink:0;width:26px;height:26px}
+
+/* Footer arranged in information, navigation and legal rows. */
+.site-footer{padding:64px 0 0;background:var(--paper);color:var(--ink)}
+.footer-info{display:grid;grid-template-columns:1fr 1.25fr 1fr;gap:48px;align-items:start;padding-bottom:40px}
+.footer-brand .brand{display:inline-block;font-size:28px}
+.footer-brand .footer-tagline{font-size:24px;margin-top:22px}
+.footer-info .footer-label{font:12px var(--sans);letter-spacing:0;text-transform:none;margin-bottom:12px}
+.footer-location,.footer-contact{font-size:12px;line-height:1.9;color:var(--muted)}
+.footer-contact{display:flex;flex-direction:column;align-items:flex-start}
+.footer-info a:not(.brand):hover{text-decoration:underline;text-underline-offset:4px}
+.footer-navigation{display:flex;align-items:center;justify-content:space-between;gap:28px;border-top:1px solid var(--line);padding-block:20px}
+.footer-social{display:grid;place-items:center;min-width:44px;min-height:44px;color:var(--ink)}
+.footer-navigation nav{display:flex;flex-wrap:wrap;justify-content:center;gap:12px 32px;font-size:11px}
+.footer-navigation nav a{display:flex;align-items:center;min-height:44px}
+.footer-navigation nav a:hover{text-decoration:underline;text-underline-offset:4px}
+.footer-contact-button{border:1px solid var(--champagne);border-radius:30px;min-height:44px;padding:12px 24px;text-transform:none;letter-spacing:0;font-size:11px}
+.footer-legal{border-top:1px solid var(--line);padding-block:24px}
+.footer-legal>.container{display:flex;align-items:center;justify-content:space-between;gap:18px;font-size:10px;color:var(--muted)}
+.footer-legal small{font-size:inherit}
+@media(max-width:760px){.site-footer{padding-top:48px}.footer-info{grid-template-columns:1fr 1fr;gap:28px;padding-bottom:28px}.footer-brand{grid-column:1/-1}.footer-navigation{flex-wrap:wrap;gap:12px}.footer-navigation nav{order:3;width:100%;justify-content:flex-start;gap:4px 24px}.footer-legal>.container{flex-wrap:wrap;justify-content:flex-start}.footer-legal small{width:100%}.footer-contact a{overflow-wrap:anywhere;max-width:100%}}
+@media(max-width:380px){.footer-info{grid-template-columns:1fr}}
