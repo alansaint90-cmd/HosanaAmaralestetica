@@ -383,7 +383,7 @@
         "name": "Hidratação labial",
         "description": "Conheça o cuidado de hidratação labial disponível no espaço.",
         "image": {
-          "key": "hidratacao-labial-real",
+          "key": "hidratacao-labial-v2",
           "alt": "Fotografia de rosto e lábios fornecida pela clínica",
           "generated": false,
           "fit": "cover"
