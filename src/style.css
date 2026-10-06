@@ -143,3 +143,6 @@
 .hero-portrait{background:#c3c4c8}
 .hero .hero-slide.hero-portrait:first-child .hero-image{inset:82px auto auto 3%;width:100%;height:calc(100% - 42px);object-position:50% top;mask-image:linear-gradient(to bottom,transparent,#000 32px);-webkit-mask-image:linear-gradient(to bottom,transparent,#000 32px)}
 @media(max-width:760px){.hero .hero-slide.hero-portrait:first-child .hero-image{inset:76px 0 auto;width:100%;height:calc(100% - 76px);object-position:60% top}}
+
+/* Continuous automatic travel; manual navigation retains its quick easing. */
+.coverflow.is-autoplaying .treatment{transition:none}
