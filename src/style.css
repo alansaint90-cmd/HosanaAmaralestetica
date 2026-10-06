@@ -116,3 +116,10 @@
 /* Clean section labels, with a champagne location line in the hero. */
 .eyebrow::before{display:none}
 .hero-portrait .hero-copy .eyebrow{color:var(--champagne)}
+/* Center the services introduction at every viewport width. */
+#tratamentos .section-top{flex-direction:column;align-items:center;text-align:center;gap:22px}
+#tratamentos .section-top>div{width:100%}
+#tratamentos .section-top .eyebrow{justify-content:center}
+#tratamentos .section-top h2{max-width:960px;margin-inline:auto;font-size:clamp(34px,4.3vw,60px);text-wrap:balance}
+#tratamentos .section-top div>p:last-child{max-width:600px;margin-inline:auto}
+#tratamentos .section-top>.section-number{text-align:center}
