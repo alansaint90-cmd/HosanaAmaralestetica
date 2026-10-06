@@ -383,8 +383,8 @@
         "name": "Hidratação labial",
         "description": "Conheça o cuidado de hidratação labial disponível no espaço.",
         "image": {
-          "key": "hidratacao-labial-v2",
-          "alt": "Fotografia de rosto e lábios fornecida pela clínica",
+          "key": "hidratacao-labial-v3",
+          "alt": "Fotografia de lábios fornecida para hidratação labial",
           "generated": false,
           "fit": "cover"
         },
@@ -405,8 +405,8 @@
         "name": "Brow lamination",
         "description": "Converse com a equipe sobre o cuidado e alinhamento das sobrancelhas.",
         "image": {
-          "key": "brow-lamination-v2",
-          "alt": "Fotografia de rosto e sobrancelhas fornecida pela clínica",
+          "key": "brow-lamination-v3",
+          "alt": "Fotografia de sobrancelhas fornecida para Brow lamination",
           "generated": false,
           "fit": "cover"
         },

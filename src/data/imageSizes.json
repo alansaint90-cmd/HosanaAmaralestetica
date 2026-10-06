@@ -122,5 +122,13 @@
   "premios-v2": {
     "width": 1254,
     "height": 1254
+  },
+  "hidratacao-labial-v3": {
+    "width": 1280,
+    "height": 1147
+  },
+  "brow-lamination-v3": {
+    "width": 678,
+    "height": 688
   }
 }
