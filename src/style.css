@@ -224,3 +224,13 @@ footer{background:var(--paper);color:var(--ink)}
 .site-footer .footer-legal>.container{justify-content:center;flex-wrap:wrap;gap:12px 28px;text-align:center}
 .site-footer .footer-legal small{width:auto}
 @media(max-width:600px){.site-footer .footer-legal>.container{gap:12px 20px}.site-footer .footer-legal small,.site-footer .footer-credit{flex-basis:100%}}
+
+/* Four balanced footer columns, with navigation beside the contact details. */
+.footer-info{grid-template-columns:1.25fr 1.2fr 1.1fr .65fr;column-gap:clamp(24px,4vw,56px);row-gap:32px}
+.footer-info>div{min-width:0}
+.footer-menu{color:var(--line);font-size:12px}
+.footer-menu nav{display:grid;gap:6px}
+.footer-menu nav a{width:fit-content;line-height:1.8}
+.footer-contact a,.footer-location a{overflow-wrap:anywhere}
+@media(max-width:1000px){.footer-info{grid-template-columns:repeat(2,minmax(0,1fr));gap:36px 40px}.footer-brand{grid-column:auto}}
+@media(max-width:600px){.footer-info{grid-template-columns:1fr;gap:28px}.footer-menu nav{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 20px}.footer-menu nav a{display:flex;align-items:center;min-height:44px}}
