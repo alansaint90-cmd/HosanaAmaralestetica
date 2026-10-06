@@ -212,3 +212,10 @@ footer{background:var(--paper);color:var(--ink)}
 .footer-legal small{font-size:inherit}
 @media(max-width:760px){.site-footer{padding-top:48px}.footer-info{grid-template-columns:1fr 1fr;gap:28px;padding-bottom:28px}.footer-brand{grid-column:1/-1}.footer-navigation{flex-wrap:wrap;gap:12px}.footer-navigation nav{order:3;width:100%;justify-content:flex-start;gap:4px 24px}.footer-legal>.container{flex-wrap:wrap;justify-content:flex-start}.footer-legal small{width:100%}.footer-contact a{overflow-wrap:anywhere;max-width:100%}}
 @media(max-width:380px){.footer-info{grid-template-columns:1fr}}
+
+/* Dark footer matches the services contact button. */
+.site-footer{background:var(--ink);color:var(--paper)}
+.site-footer .footer-location,.site-footer .footer-contact,.site-footer .footer-legal>.container{color:var(--line)}
+.site-footer .footer-social{color:var(--champagne)}
+.site-footer .footer-navigation,.site-footer .footer-legal{border-color:#ffffff26}
+.site-footer .footer-contact-button:hover{background:var(--paper);color:var(--ink)}
