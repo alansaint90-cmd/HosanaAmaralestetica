@@ -105,7 +105,7 @@
     {
       "category": "ESTÉTICA FACIAL",
       "headline": "Cuidado que valoriza sua beleza.",
-      "description": "Conheça as opções de estética facial e harmonização oferecidas pela Hosana Amaral.",
+      "description": "Conheça as opções de estética facial oferecidas pela Hosana Amaral.",
       "cta": "Explorar estética facial"
     },
     {
@@ -292,28 +292,6 @@
       },
       {
         "id": "06",
-        "category": "FACIAL",
-        "name": "Harmonização facial",
-        "description": "Conheça as opções de harmonização facial.",
-        "image": {
-          "key": "hidratacao-labial-real",
-          "alt": "Fotografia de rosto fornecida pela clínica",
-          "generated": false,
-          "fit": "cover"
-        },
-        "actions": [
-          {
-            "label": "Saiba mais",
-            "type": "whatsapp"
-          },
-          {
-            "label": "Agendar",
-            "type": "whatsapp"
-          }
-        ]
-      },
-      {
-        "id": "07",
         "category": "CABELOS",
         "name": "Alongamento pelo método de fita",
         "description": "Converse com a equipe sobre o alongamento pelo método de fita.",
@@ -335,13 +313,13 @@
         ]
       },
       {
-        "id": "08",
+        "id": "07",
         "category": "CUIDADO",
         "name": "Plástica dos pés",
         "description": "Saiba mais sobre o atendimento de plástica dos pés.",
         "image": {
-          "key": "plastica-pes-real",
-          "alt": "Fotografia dos pés fornecida pela clínica",
+          "key": "plastica-pes-v2",
+          "alt": "Comparação dos pés lado a lado na imagem fornecida para plástica dos pés",
           "generated": false,
           "fit": "contain"
         },
@@ -361,10 +339,10 @@
         "name": "Tratamento de diástase e flacidez",
         "description": "Saiba mais sobre a avaliação e as opções de cuidado para diástase e flacidez.",
         "image": {
-          "key": "diastase-flacidez-real",
-          "alt": "Fotografia de abdômen fornecida pela clínica",
+          "key": "diastase-flacidez-v2",
+          "alt": "Fotografia de abdômen fornecida para o tratamento de diástase e flacidez",
           "generated": false,
-          "fit": "contain"
+          "fit": "cover"
         },
         "actions": [
           {
@@ -376,7 +354,7 @@
             "type": "whatsapp"
           }
         ],
-        "id": "09"
+        "id": "08"
       },
       {
         "category": "CORPORAL",
@@ -398,7 +376,7 @@
             "type": "whatsapp"
           }
         ],
-        "id": "10"
+        "id": "09"
       },
       {
         "category": "FACIAL",
@@ -420,7 +398,7 @@
             "type": "whatsapp"
           }
         ],
-        "id": "11"
+        "id": "10"
       },
       {
         "category": "FACIAL",
@@ -442,17 +420,17 @@
             "type": "whatsapp"
           }
         ],
-        "id": "12"
+        "id": "11"
       },
       {
         "category": "FACIAL",
         "name": "Despigmentação de sobrancelhas",
         "description": "Saiba mais sobre a avaliação para despigmentação de sobrancelhas.",
         "image": {
-          "key": "despigmentacao-real",
-          "alt": "Fotografia de sobrancelha fornecida pela clínica",
+          "key": "despigmentacao-v2",
+          "alt": "Fotografia de sobrancelha fornecida para o atendimento de despigmentação",
           "generated": false,
-          "fit": "contain"
+          "fit": "cover"
         },
         "actions": [
           {
@@ -464,7 +442,7 @@
             "type": "whatsapp"
           }
         ],
-        "id": "13"
+        "id": "12"
       },
       {
         "category": "UNHAS",
@@ -486,7 +464,7 @@
             "type": "whatsapp"
           }
         ],
-        "id": "14"
+        "id": "13"
       }
     ]
   },
@@ -550,7 +528,7 @@
       {
         "number": "02",
         "question": "Quais tratamentos estão disponíveis?",
-        "answer": "Oferecemos Estética facial, Estética corporal, Pós-operatório de lipoaspiração, Ezbody, Epilação a laser, Harmonização facial, Alongamento pelo método de fita, Plástica dos pés, Tratamento de diástase e flacidez, Massagem modeladora, Hidratação labial, Brow lamination, Despigmentação de sobrancelhas, Alongamento de unhas em gel. Consulte a equipe para conhecer os detalhes de cada atendimento."
+        "answer": "Oferecemos Estética facial, Estética corporal, Pós-operatório de lipoaspiração, Ezbody, Epilação a laser, Alongamento pelo método de fita, Plástica dos pés, Tratamento de diástase e flacidez, Massagem modeladora, Hidratação labial, Brow lamination, Despigmentação de sobrancelhas, Alongamento de unhas em gel. Consulte a equipe para conhecer os detalhes de cada atendimento."
       },
       {
         "number": "03",

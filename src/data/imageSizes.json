@@ -90,5 +90,13 @@
   "unhas-gel": {
     "width": 1122,
     "height": 1402
+  },
+  "diastase-flacidez-v2": {
+    "width": 1280,
+    "height": 853
+  },
+  "despigmentacao-v2": {
+    "width": 1280,
+    "height": 1023
   }
 }
