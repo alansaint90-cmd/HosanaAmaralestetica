@@ -187,3 +187,7 @@ footer{background:var(--paper);color:var(--ink)}
 .instagram-after-faq h2{font-size:clamp(32px,4vw,48px);margin-top:16px}
 .instagram-after-faq .instagram-link{flex-shrink:0;min-height:44px}
 @media(max-width:760px){.instagram-section{padding-block:24px 48px}.instagram-after-faq{align-items:flex-start;flex-direction:column;gap:20px}.instagram-after-faq .instagram-link{margin-top:0}}
+
+.instagram-final .instagram-link{width:fit-content;max-width:100%;margin-top:30px;color:var(--paper);border-color:var(--champagne);font-size:15px;overflow-wrap:anywhere}
+.instagram-final .instagram-link:hover{color:var(--champagne);border-color:var(--paper)}
+.instagram-final .instagram-link svg{flex-shrink:0;width:26px;height:26px}
