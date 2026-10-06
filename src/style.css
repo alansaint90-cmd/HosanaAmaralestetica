@@ -146,3 +146,12 @@
 
 /* Continuous automatic travel; manual navigation retains its quick easing. */
 .coverflow.is-autoplaying .treatment{transition:none}
+
+/* Bring the contact action closer to the services carousel. */
+#tratamentos{padding-bottom:40px}
+#tratamentos .treatment-grid.coverflow{height:480px}
+#tratamentos .coverflow-controls{margin-top:0}
+.services-contact{display:flex;justify-content:center;margin-top:18px;text-align:center}
+.services-contact .button{justify-content:center;background:var(--ink);color:var(--paper);border-color:var(--ink);max-width:100%}
+.services-contact .button:hover{background:var(--paper);color:var(--ink)}
+@media(max-width:600px){#tratamentos .treatment-grid.coverflow{height:465px}#tratamentos{padding-bottom:32px}.services-contact .button{padding-inline:18px}}
