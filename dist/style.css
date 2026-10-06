@@ -113,3 +113,6 @@
 .coverflow .treatment h3{text-align:center;margin-top:20px;width:100%}
 /* Full-width sand background separates the procedures section. */
 #tratamentos{background:var(--sand)}
+/* Clean section labels, with a champagne location line in the hero. */
+.eyebrow::before{display:none}
+.hero-portrait .hero-copy .eyebrow{color:var(--champagne)}
