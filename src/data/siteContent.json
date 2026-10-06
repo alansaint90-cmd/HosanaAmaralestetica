@@ -256,9 +256,9 @@
         "name": "Ezbody",
         "description": "Entre em contato para entender este atendimento.",
         "image": {
-          "key": "ezbody-novo",
-          "alt": "Imagem ilustrativa de atendimento com eletroestimulação, gerada por IA",
-          "generated": true,
+          "key": "ezbody-real-v2",
+          "alt": "Abdômen em atendimento de estética corporal Ezbody",
+          "generated": false,
           "fit": "cover"
         },
         "actions": [
