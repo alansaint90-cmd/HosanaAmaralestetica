@@ -19,11 +19,7 @@ $('.next').addEventListener('click',()=>show(index+1));
 hero.addEventListener('keydown',e=>{if(e.key==='ArrowRight'){e.preventDefault();show(index+1,true);}if(e.key==='ArrowLeft'){e.preventDefault();show(index-1,true);}});
 let touch;hero.addEventListener('touchstart',e=>{touch={x:e.changedTouches[0].clientX,y:e.changedTouches[0].clientY};},{passive:true});hero.addEventListener('touchend',e=>{if(!touch)return;const dx=e.changedTouches[0].clientX-touch.x,dy=e.changedTouches[0].clientY-touch.y;if(Math.abs(dx)>55&&Math.abs(dx)>Math.abs(dy)*1.5)show(index+(dx<0?1:-1),true);touch=null;},{passive:true});
 
-const filters=$('[data-filter]'),cards=$('.treatment');
-const treatmentFlow=initTreatmentCoverflow($('.treatment-grid'));
-function filterTreatments(value){filters.forEach(f=>{f.setAttribute('aria-pressed',String(f.dataset.filter===value));f.classList.toggle('selected',f.dataset.filter===value);});cards.forEach(c=>{c.hidden=value!=='Todos'&&c.dataset.category!==value;});treatmentFlow.refresh();$('#filter-status').textContent=`${cards.filter(c=>!c.hidden).length} tratamentos na categoria ${value}.`;}
-filters.forEach(f=>f.addEventListener('click',()=>filterTreatments(f.dataset.filter)));
-$$('[data-filter-link]').forEach(a=>a.addEventListener('click',()=>filterTreatments(a.dataset.filterLink)));
+initTreatmentCoverflow($('.treatment-grid'));
 const lightbox=$('.lightbox'),gallery=$$('.gallery-photo');let photoIndex=0;
 function showPhoto(i){photoIndex=(i+gallery.length)%gallery.length;const image=$('img',gallery[photoIndex]);$('.lightbox-image').src=image.src;$('.lightbox-image').alt=image.alt;$('#gallery-caption').textContent=image.alt;$('.gallery-count').textContent=`${photoIndex+1} / ${gallery.length}`;}
 gallery.forEach((b,i)=>b.addEventListener('click',()=>{showPhoto(i);lightbox.showModal();}));
