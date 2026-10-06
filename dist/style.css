@@ -100,3 +100,4 @@
 @media(max-width:760px){.hero-portrait .hero-image{inset:0;width:100%;height:100%;object-position:65% center}.hero-portrait .photo-shade{background:linear-gradient(0deg,rgba(38,34,30,.94) 0%,rgba(38,34,30,.72) 40%,rgba(38,34,30,.12) 75%)}.hero-portrait .hero-copy .eyebrow{max-width:100%}}
 /* Keep the portrait's face centered on narrow screens, overriding legacy slide crops. */
 @media(max-width:760px){.hero .hero-slide.hero-portrait:first-child .hero-image{object-position:60% center}}
+@media(max-width:760px){.manifesto figure{justify-self:center;margin-inline:auto}.manifesto figcaption{text-align:center}}
