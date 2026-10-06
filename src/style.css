@@ -40,6 +40,18 @@
 @media(prefers-reduced-motion:reduce){.treatment-visual.preserve-image img,.treatment:hover .preserve-image img,.treatment:focus-within .preserve-image img{transform:none}}
 
 /* Only previous/next controls remain in the hero footer. */
+.manifesto{gap:8%;grid-template-columns:1fr 1fr}
+.manifesto figure{grid-column:1;grid-row:1;max-width:none;justify-self:stretch}
+.manifesto-copy{grid-column:2;grid-row:1}
+.manifesto-copy h2{max-width:560px}
+.manifesto-copy h2 em{color:var(--muted);font-weight:400}
+.manifesto-copy>p:not(.eyebrow){max-width:560px}
+.manifesto img{aspect-ratio:4/5;object-position:center}
+.whatsapp-float{position:fixed;right:24px;bottom:calc(24px + env(safe-area-inset-bottom,0px));z-index:40;width:60px;height:60px;border-radius:50%;display:grid;place-items:center;background:#25d366;color:#fff;box-shadow:0 6px 24px #0003;transition:transform .2s,background .2s}
+.whatsapp-float:hover{background:#128c7e;transform:translateY(-3px)}
+.whatsapp-float:focus-visible{outline:3px solid var(--ink);outline-offset:4px}
+@media(max-width:760px){.manifesto{grid-template-columns:1fr;gap:36px}.manifesto figure,.manifesto-copy{grid-column:auto;grid-row:auto}.manifesto figure{order:-1}.whatsapp-float{right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));width:56px;height:56px}}
+@media(prefers-reduced-motion:reduce){.whatsapp-float{transition:none}.whatsapp-float:hover{transform:none}}
 .hero-controls{justify-content:flex-end}
 
 /* Keep treatment titles and actions aligned within each grid row. */
