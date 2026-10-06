@@ -517,10 +517,10 @@
   "faq": {
     "id": "faq",
     "eyebrow": "DÚVIDAS FREQUENTES",
-    "headline": "Antes de começar, uma boa conversa.",
+    "headline": "Antes de começar, tire suas dúvidas.",
     "description": "Não encontrou o que procurava? Estamos à disposição para conversar.",
     "contact_cta": {
-      "label": "Fale com a equipe",
+      "label": "Falar com a nossa equipe no WhatsApp",
       "type": "whatsapp"
     },
     "items": [
