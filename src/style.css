@@ -109,3 +109,5 @@
  #manifesto .studio-photo-frame img{width:100%;display:block;object-position:center center}
  #manifesto figcaption{text-align:center}
 }
+/* Procedure names centered directly below the carousel photographs. */
+.coverflow .treatment h3{text-align:center;margin-top:20px;width:100%}
