@@ -40,6 +40,7 @@
 @media(prefers-reduced-motion:reduce){.treatment-visual.preserve-image img,.treatment:hover .preserve-image img,.treatment:focus-within .preserve-image img{transform:none}}
 
 /* Only previous/next controls remain in the hero footer. */
+.hero-title-accent{color:var(--champagne)}
 .hero-portrait{background:#34302b}
 .hero-portrait .hero-image{left:auto;right:0;width:72%;object-position:60% center}
 .hero-portrait .photo-shade{background:linear-gradient(90deg,#34302b 0%,rgba(52,48,43,.96) 26%,rgba(52,48,43,.35) 46%,transparent 64%)}
