@@ -152,8 +152,8 @@
 #tratamentos .treatment-grid.coverflow{height:480px}
 #tratamentos .coverflow-controls{margin-top:0}
 .services-contact{display:flex;justify-content:center;margin-top:18px;text-align:center}
-.services-contact .button{justify-content:center;background:var(--champagne);color:var(--ink);border-color:var(--champagne);max-width:100%}
-.services-contact .button:hover,.services-contact .button:active,.services-contact .button:focus-visible{background:#fff;color:var(--ink);border-color:#fff}
+.services-contact .button{justify-content:center;background:var(--muted);color:var(--paper);border:1px solid var(--champagne);max-width:100%}
+.services-contact .button:hover,.services-contact .button:active,.services-contact .button:focus-visible{background:#fff;color:var(--ink);border-color:#000}
 @media(max-width:600px){#tratamentos .treatment-grid.coverflow{height:465px}#tratamentos{padding-bottom:32px}.services-contact .button{padding-inline:18px}}
 
 /* Speech-bubble testimonials over the existing specialist photograph. */
