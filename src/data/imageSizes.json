@@ -114,5 +114,9 @@
   "corporal-real-v2": {
     "width": 1280,
     "height": 960
+  },
+  "pos-lipo-real-v2": {
+    "width": 1280,
+    "height": 1174
   }
 }

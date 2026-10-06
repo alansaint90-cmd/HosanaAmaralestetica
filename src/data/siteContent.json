@@ -230,10 +230,10 @@
         "name": "Pós-operatório de lipoaspiração",
         "description": "Converse com a equipe sobre os cuidados no pós-operatório de lipoaspiração.",
         "image": {
-          "key": "pos-lipo-real",
+          "key": "pos-lipo-real-v2",
           "alt": "Fotografia de abdômen fornecida para os cuidados corporais",
           "generated": false,
-          "fit": "contain"
+          "fit": "cover"
         },
         "actions": [
           {
