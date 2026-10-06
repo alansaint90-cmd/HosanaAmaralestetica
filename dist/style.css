@@ -219,3 +219,8 @@ footer{background:var(--paper);color:var(--ink)}
 .site-footer .footer-social{color:var(--champagne)}
 .site-footer .footer-navigation,.site-footer .footer-legal{border-color:#ffffff26}
 .site-footer .footer-contact-button:hover{background:var(--paper);color:var(--ink)}
+
+/* Center the legal row and site creation credit. */
+.site-footer .footer-legal>.container{justify-content:center;flex-wrap:wrap;gap:12px 28px;text-align:center}
+.site-footer .footer-legal small{width:auto}
+@media(max-width:600px){.site-footer .footer-legal>.container{gap:12px 20px}.site-footer .footer-legal small,.site-footer .footer-credit{flex-basis:100%}}
