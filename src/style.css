@@ -101,3 +101,11 @@
 /* Keep the portrait's face centered on narrow screens, overriding legacy slide crops. */
 @media(max-width:760px){.hero .hero-slide.hero-portrait:first-child .hero-image{object-position:60% center}}
 @media(max-width:760px){.manifesto figure{justify-self:center;margin-inline:auto}.manifesto figcaption{text-align:center}}
+/* Studio portrait: symmetrical mobile margins, without the old 80% width. */
+@media(max-width:760px){
+ #manifesto.manifesto{grid-template-columns:minmax(0,1fr)}
+ #manifesto.manifesto>figure{width:100%;max-width:420px;min-width:0;margin:0 auto;justify-self:center;grid-column:1}
+ #manifesto .studio-photo-frame{width:100%}
+ #manifesto .studio-photo-frame img{width:100%;display:block;object-position:center center}
+ #manifesto figcaption{text-align:center}
+}
