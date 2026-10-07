@@ -235,5 +235,5 @@ footer{background:var(--paper);color:var(--ink)}
 @media(max-width:1000px){.footer-info{grid-template-columns:repeat(2,minmax(0,1fr));gap:36px 40px}.footer-brand{grid-column:auto}}
 @media(max-width:600px){.footer-info{grid-template-columns:1fr;gap:28px}.footer-menu nav{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 20px}.footer-menu nav a{display:flex;align-items:center;min-height:44px}}
 
-/* Preserve both panels and captions in the supplied comparison. */
-.coverflow .treatment-visual img[src*="despigmentacao-comparativo-v4"]{object-fit:contain;object-position:center;background:var(--sand)}
+/* Fill the comparison card without side borders. */
+.coverflow .treatment-visual img[src*="despigmentacao-comparativo-v4"]{object-fit:cover;object-position:center;background:var(--sand)}
