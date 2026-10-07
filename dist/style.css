@@ -237,3 +237,10 @@ footer{background:var(--paper);color:var(--ink)}
 
 /* Fill the comparison card without side borders. */
 .coverflow .treatment-visual img[src*="despigmentacao-comparativo-v6"]{object-fit:cover;object-position:center;background:var(--sand)}
+
+/* Keep the mobile wordmark together and the close control unframed. */
+.mobile-menu>.brand{display:inline-block;width:fit-content;max-width:100%}
+.mobile-menu>.brand small{display:block;text-align:center;margin-top:9px}
+.mobile-menu .close-menu{border:0;border-radius:0;background:transparent;box-shadow:none}
+.mobile-menu .close-menu:focus:not(:focus-visible){outline:none}
+.mobile-menu .close-menu:focus-visible{outline:1px solid var(--ink);outline-offset:2px}
