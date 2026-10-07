@@ -192,8 +192,10 @@
         "name": "Limpeza de pele",
         "description": "Conheça as opções de cuidados faciais disponíveis.",
         "image": {
-          "alt": "Hosana Amaral durante atendimento facial",
-          "url": null
+          "key": "limpeza-pele-v2",
+          "alt": "Hosana Amaral realizando limpeza de pele em uma cliente",
+          "generated": false,
+          "fit": "cover"
         },
         "actions": [
           {

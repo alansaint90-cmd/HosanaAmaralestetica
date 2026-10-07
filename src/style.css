@@ -244,3 +244,5 @@ footer{background:var(--paper);color:var(--ink)}
 .mobile-menu .close-menu{border:0;border-radius:0;background:transparent;box-shadow:none}
 .mobile-menu .close-menu:focus:not(:focus-visible){outline:none}
 .mobile-menu .close-menu:focus-visible{outline:1px solid var(--ink);outline-offset:2px}
+
+.coverflow .treatment-visual img[src*="limpeza-pele-v2"]{object-fit:cover;object-position:35% center}
