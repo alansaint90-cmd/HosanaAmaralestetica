@@ -531,28 +531,23 @@
       },
       {
         "number": "02",
-        "question": "Quais tratamentos estão disponíveis?",
-        "answer": "Oferecemos Estética facial, Estética corporal, Pós-operatório de lipoaspiração, Ezbody, Epilação a laser, Alongamento pelo método de fita, Plástica dos pés, Tratamento de diástase e flacidez, Massagem modeladora, Hidratação labial, Brow lamination, Despigmentação de sobrancelhas, Alongamento de unhas em gel. Consulte a equipe para conhecer os detalhes de cada atendimento."
+        "question": "Como saber qual procedimento é indicado?",
+        "answer": "Para saber qual procedimento é indicado para você, é necessário realizar uma avaliação. Essa avaliação é gratuita!"
       },
       {
         "number": "03",
-        "question": "Como saber qual procedimento é indicado?",
-        "answer": "Converse com a equipe para conhecer os serviços e receber orientações sobre uma avaliação."
+        "question": "Como funciona o atendimento pré e pós-operatório?",
+        "answer": "O atendimento pré e pós-operatório funciona como um programa estruturado de cuidados físicos e orientações, que prepara o corpo antes do procedimento e auxilia na recuperação após a cirurgia."
       },
       {
         "number": "04",
-        "question": "Como funciona o atendimento pré e pós-operatório?",
-        "answer": "Os detalhes do atendimento devem ser conversados diretamente com a equipe. Entre em contato pelo WhatsApp para saber mais."
+        "question": "Onde fica o espaço?",
+        "answer": "O espaço fica na Avenida Ernâni de Oliveira Rocha, 634, Penão, São Sebastião do Passé — Bahia, próximo ao Hotel Rios."
       },
       {
         "number": "05",
-        "question": "Onde fica o espaço?",
-        "answer": "Entre em contato pelo WhatsApp para confirmar a localização e receber as orientações para sua visita."
-      },
-      {
-        "number": "06",
         "question": "Quais formas de pagamento são aceitas?",
-        "answer": "Consulte as formas de pagamento disponíveis diretamente com a equipe pelo WhatsApp."
+        "answer": "Aceitamos Pix, dinheiro em espécie e cartões de crédito ou débito."
       }
     ]
   },
