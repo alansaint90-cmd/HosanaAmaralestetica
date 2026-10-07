@@ -236,4 +236,4 @@ footer{background:var(--paper);color:var(--ink)}
 @media(max-width:600px){.footer-info{grid-template-columns:1fr;gap:28px}.footer-menu nav{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 20px}.footer-menu nav a{display:flex;align-items:center;min-height:44px}}
 
 /* Fill the comparison card without side borders. */
-.coverflow .treatment-visual img[src*="despigmentacao-comparativo-v4"]{object-fit:cover;object-position:center;background:var(--sand)}
+.coverflow .treatment-visual img[src*="despigmentacao-comparativo-v5"]{object-fit:cover;object-position:center;background:var(--sand)}
