@@ -431,8 +431,8 @@
         "name": "Despigmentação de sobrancelhas",
         "description": "Saiba mais sobre a avaliação para despigmentação de sobrancelhas.",
         "image": {
-          "key": "despigmentacao-v3",
-          "alt": "Fotografia de sobrancelha fornecida para o atendimento de despigmentação",
+          "key": "despigmentacao-comparativo-v4",
+          "alt": "Comparativo antes e depois de despigmentação de sobrancelha",
           "generated": false,
           "fit": "cover"
         },
