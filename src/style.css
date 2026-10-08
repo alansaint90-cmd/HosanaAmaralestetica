@@ -246,3 +246,9 @@ footer{background:var(--paper);color:var(--ink)}
 .mobile-menu .close-menu:focus-visible{outline:1px solid var(--ink);outline-offset:2px}
 
 .coverflow .treatment-visual img[src*="limpeza-pele-v2"]{object-fit:cover;object-position:35% center}
+
+/* Subtle text entrances, independent of carousel transforms. */
+.text-enter{opacity:0;transform:translateY(14px);transition:opacity 650ms ease var(--entry-delay,0ms),transform 650ms cubic-bezier(.22,1,.36,1) var(--entry-delay,0ms)}
+.text-enter.text-entered{opacity:1;transform:translateY(0)}
+.studio-stats dd{font-variant-numeric:tabular-nums}
+@media(prefers-reduced-motion:reduce){.text-enter{opacity:1;transform:none;transition:none}}
