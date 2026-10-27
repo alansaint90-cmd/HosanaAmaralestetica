@@ -162,5 +162,9 @@
   "preenchimento-labial-v1": {
     "width": 1280,
     "height": 1696
+  },
+  "pos-lipo-tratado-v3": {
+    "width": 1280,
+    "height": 1473
   }
 }

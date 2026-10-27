@@ -236,8 +236,8 @@
         "name": "Pós-operatório de lipoaspiração",
         "description": "Converse com a equipe sobre os cuidados no pós-operatório de lipoaspiração.",
         "image": {
-          "key": "pos-lipo-real-v2",
-          "alt": "Fotografia de abdômen fornecida para os cuidados corporais",
+          "key": "pos-lipo-tratado-v3",
+          "alt": "Fotografia de cuidado pós-operatório de lipoaspiração, com recorte e melhoria de nitidez assistidos por IA",
           "generated": false,
           "fit": "cover"
         },
@@ -280,9 +280,9 @@
         "name": "Epilação a laser",
         "description": "Conheça o atendimento de epilação a laser e tire suas dúvidas com a equipe.",
         "image": {
-          "key": "epilacao-laser-nova",
-          "alt": "Imagem ilustrativa de epilação a laser na perna, gerada por IA",
-          "generated": true,
+          "key": "pos-lipo-real-v2",
+          "alt": "Fotografia de resultado de epilação a laser no abdômen fornecida pela equipe",
+          "generated": false,
           "fit": "cover"
         },
         "actions": [
