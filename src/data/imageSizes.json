@@ -158,5 +158,9 @@
   "limpeza-pele-v2": {
     "width": 1280,
     "height": 853
+  },
+  "preenchimento-labial-v1": {
+    "width": 1280,
+    "height": 1696
   }
 }

@@ -408,6 +408,24 @@
       },
       {
         "category": "FACIAL",
+        "name": "Preenchimento labial",
+        "description": "Converse com a equipe sobre preenchimento labial.",
+        "image": {
+          "key": "preenchimento-labial-v1",
+          "alt": "Comparativo de lábios fornecido para o procedimento de preenchimento labial",
+          "generated": false,
+          "fit": "cover"
+        },
+        "actions": [
+          {
+            "label": "Agendar",
+            "type": "whatsapp"
+          }
+        ],
+        "id": "11"
+      },
+      {
+        "category": "FACIAL",
         "name": "Brow lamination",
         "description": "Converse com a equipe sobre o cuidado e alinhamento das sobrancelhas.",
         "image": {
@@ -426,7 +444,7 @@
             "type": "whatsapp"
           }
         ],
-        "id": "11"
+        "id": "12"
       },
       {
         "category": "FACIAL",
@@ -448,7 +466,7 @@
             "type": "whatsapp"
           }
         ],
-        "id": "12"
+        "id": "13"
       },
       {
         "category": "UNHAS",
@@ -470,7 +488,7 @@
             "type": "whatsapp"
           }
         ],
-        "id": "13"
+        "id": "14"
       }
     ]
   },
