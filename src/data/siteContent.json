@@ -189,7 +189,7 @@
       {
         "id": "01",
         "category": "FACIAL",
-        "name": "Limpeza de pele",
+        "name": "Limpeza de pele personalizada",
         "description": "Conheça as opções de cuidados faciais disponíveis.",
         "image": {
           "key": "limpeza-pele-v2",
@@ -367,8 +367,8 @@
         "name": "Massagem modeladora",
         "description": "Conheça a massagem modeladora e converse sobre o atendimento.",
         "image": {
-          "key": "massagem-modeladora-real",
-          "alt": "Fotografia de cuidado corporal fornecida pela clínica",
+          "key": "massagem-modeladora-v2",
+          "alt": "Fotografia de abdômen fornecida para massagem modeladora",
           "generated": false,
           "fit": "cover"
         },
