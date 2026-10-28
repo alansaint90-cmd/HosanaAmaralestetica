@@ -367,7 +367,7 @@
         "name": "Massagem modeladora",
         "description": "Conheça a massagem modeladora e converse sobre o atendimento.",
         "image": {
-          "key": "massagem-modeladora-v2",
+          "key": "massagem-modeladora-v3",
           "alt": "Fotografia de abdômen fornecida para massagem modeladora",
           "generated": false,
           "fit": "cover"
