@@ -252,3 +252,5 @@ footer{background:var(--paper);color:var(--ink)}
 .text-enter.text-entered{opacity:1;transform:translateY(0)}
 .studio-stats dd{font-variant-numeric:tabular-nums}
 @media(prefers-reduced-motion:reduce){.text-enter{opacity:1;transform:none;transition:none}}
+
+.testimonial-note{font-size:11px;line-height:1.6;text-align:center;color:var(--muted);margin:18px 0 0}

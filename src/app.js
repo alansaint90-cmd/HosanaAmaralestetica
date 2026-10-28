@@ -49,3 +49,14 @@ if(!motion.matches&&'IntersectionObserver' in window){
   if(motion.matches){entrance.disconnect();counter.disconnect();elements.forEach(el=>el.classList.add('text-entered'));finishCounts();}
  });
 }
+
+const testimonials=$$('.testimonial-slide');let testimonialIndex=0;
+function showTestimonial(delta){
+ if(!testimonials.length)return;
+ testimonialIndex=(testimonialIndex+delta+testimonials.length)%testimonials.length;
+ testimonials.forEach((slide,i)=>{slide.hidden=i!==testimonialIndex;});
+ $('.testimonial-count').textContent=`${testimonialIndex+1} / ${testimonials.length}`;
+}
+$('.testimonial-prev')?.addEventListener('click',()=>showTestimonial(-1));
+$('.testimonial-next')?.addEventListener('click',()=>showTestimonial(1));
+$('.testimonial-balloon')?.addEventListener('keydown',e=>{if(e.key==='ArrowLeft'||e.key==='ArrowRight'){e.preventDefault();showTestimonial(e.key==='ArrowRight'?1:-1);}});
