@@ -233,11 +233,11 @@
       {
         "id": "03",
         "category": "CUIDADO",
-        "name": "Pós-operatório de lipoaspiração",
-        "description": "Converse com a equipe sobre os cuidados no pós-operatório de lipoaspiração.",
+        "name": "Pós-operatório",
+        "description": "Converse com a equipe sobre os cuidados no pós-operatório.",
         "image": {
-          "key": "pos-lipo-tratado-v3",
-          "alt": "Fotografia de cuidado pós-operatório de lipoaspiração, com recorte e melhoria de nitidez assistidos por IA",
+          "key": "pos-operatorio-v4",
+          "alt": "Cuidados pós-operatórios com bandagens e curativos, com áreas íntimas cobertas",
           "generated": false,
           "fit": "cover"
         },
